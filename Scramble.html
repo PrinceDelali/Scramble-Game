@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scramble Game</title>
+    <link rel="stylesheet" href="Scramble.css">
+</head>
+
+<body>
+    <div class="background-words">
+        <span class="word" style="left: 10%; animation-duration: 15s;">javascript</span>
+        <span class="word" style="left: 20%; animation-duration: 25s;">html</span>
+        <span class="word" style="left: 30%; animation-duration: 35s;">css</span>
+        <span class="word" style="left: 50%; animation-duration: 45s;">python</span>
+        <span class="word" style="left: 70%; animation-duration: 55s;">developer</span>
+        <span class="word" style="left: 90%; animation-duration: 65s;">coding</span>
+        <span class="word" style="left: 40%; animation-duration: 75s;">programming</span>
+        <span class="word" style="left: 10%; animation-duration: 85s;">software</span>
+        <span class="word" style="left: 30%; animation-duration: 95s;">engineer</span>
+        <span class="word" style="left: 40%; animation-duration: 100s;">algorithm</span>
+        <span class="word" style="left: 65%; animation-duration: 110s;">database</span>
+    </div>
+    <div class="game-container">
+        <h1>Scramble Game</h1>
+        <p id="scrambledWord"></p>
+        <p id="hint"></p>
+        <input type="text" id="derivedWordInput" placeholder="Enter derived word">
+        <div class="button-container">
+            <button id="checkButton">Check Word</button>
+            <button id="newWordButton">New Word</button>
+        </div>
+        <div id="derivedWords"></div>
+        <p id="score">Score: 0</p>
+        <p id="timer">Time left: 30s</p>
+    </div>
+    <script src="Scramble.js"></script>
+</body>
+
+</html>
